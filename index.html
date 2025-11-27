@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Proyecto IMT2200 - Pagina Proyecto</title>
+  <title>Proyecto IMT2200 - Ciencia de Datos</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
@@ -10,70 +10,94 @@
       max-width: 900px;
       margin: 0 auto;
       padding: 2rem 1rem;
-      line-height: 1.5;
+      line-height: 1.6;
+      color: #333;
     }
     header {
-      border-bottom: 1px solid #ddd;
-      margin-bottom: 1.5rem;
+      border-bottom: 2px solid #0366d6; /* Un toque de color azul estilo GitHub */
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
     }
     h1 {
-      margin-bottom: 0.3rem;
+      margin-bottom: 0.5rem;
+      font-size: 2.5rem;
     }
     .tagline {
-      color: #555;
+      color: #666;
+      font-size: 1.2rem;
       margin-top: 0;
+      font-style: italic;
+    }
+    h2 {
+      color: #24292e;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 0.3rem;
+      margin-top: 2rem;
     }
     section {
       margin-bottom: 1.5rem;
     }
     ul {
-      padding-left: 1.2rem;
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
     }
     .integrantes li {
       margin-bottom: 0.2rem;
+      font-weight: 500;
     }
     a {
+      color: #0366d6;
       text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Proyecto IMT2200 - Introducción a la Ciencia de Datos</h1>
-    <p class="tagline">Predicción de precios de venta inmobiliaria en la RM</p>
+    <h1>Proyecto IMT2200</h1>
+    <p class="tagline">Introducción a la Ciencia de Datos: Predicción de precios inmobiliarios en la RM</p>
   </header>
 
   <section>
     <h2>Descripción del proyecto</h2>
     <p>
-      En este proyecto analizamos el conjunto de datos del portal inmobiliario</strong>
-      con el objetivo de hacer Scrapping los datos del portal</strong>. Utilizamos herramientas de
-      ciencia de datos para limpiar, transformar y explorar la información.
+      En este proyecto analizamos el conjunto de datos del portal inmobiliario 
+      con el objetivo de realizar <strong>Web Scraping</strong> de los datos del portal. 
+      Utilizamos herramientas de ciencia de datos para limpiar, transformar y explorar la información 
+      para entender el mercado inmobiliario.
     </p>
   </section>
 
   <section>
-    <h2>Datos y metostrong>Fuente de datos:</strong> https://www.portalinmobiliario.com.</li>
-      <li><sstrongiTL:</strongi>
-    strongistrong>ETL:</strong> limpieza, transformaciones principales, manejo de valores faltantes, etc.</li>
-      <li><strong>Análisis:</strong> métricas, visualizaciones, modelos, etc.</li>
+    <h2>Datos y Metodología</h2>
+    <ul>
+      <li><strong>Fuente de datos:</strong> <a href="https://www.portalinmobiliario.com" target="_blank">Portal Inmobiliario</a>.</li>
+      <li><strong>ETL:</strong> Limpieza de datos, transformaciones principales y manejo de valores faltantes (Nulls/NaN).</li>
+      <li><strong>Análisis:</strong> Definición de métricas, visualizaciones con Matplotlib/Seaborn y modelado de datos.</li>
     </ul>
   </section>
 
   <section>
     <h2>Resultados principales</h2>
     <p>
-      Resumir los hallazgos más importantes: patrones encontrados, comparaciones relevantes,
-      conclusiones que respondan a la pregunta del proyecto.
+      (Espacio reservado para tus conclusiones). Aquí se resumirán los hallazgos más importantes: 
+      patrones de precios encontrados por comuna, correlaciones y conclusiones que respondan a la pregunta del proyecto.
     </p>
   </section>
 
   <section>
-    <h2>Enlaces al repositorio</h2>
+    <h2>Archivos del Repositorio</h2>
+    <p>Puedes ver el código fuente en los siguientes enlaces:</p>
     <ul>
-      <li><a href="../repositorio_final.ipynb">Notebook final del análisis</a></li>
-      <li><a href="../ETL.ipynb">Notebook ETL</a></li>
-      <li><a href="../Gr%C3%A1ficos">Carpeta de gráficos</a></li>
+      <li><a href="repositorio_final.ipynb">Notebook final del análisis</a></li>
+      <li><a href="ETL.ipynb">Notebook ETL</a></li>
+      <li><a href="graficos/">Carpeta de gráficos</a></li>
     </ul>
   </section>
 
